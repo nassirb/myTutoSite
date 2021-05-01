@@ -21,7 +21,7 @@ nav{
 
 .burger{
     width: 100%;
-    height: 100px;
+    height: 10%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -35,19 +35,57 @@ nav{
   background-color: white;
 }
 
+.link-bar {
+    height: 60%;
+}
+
 .link-bar ul {
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
     list-style-type: none;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .link-bar ul li {
     width: 100%;
-    align-items: center;
+    text-align: center;
 }
 
 .link-bar a {
+    width: 100%;
+    height: 100%;
     color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.social-bloc{
+    height: 30%;
+    width: 100%;
+}
+
+.social-bloc ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.social-bloc ul li {
+    width: 20px;
+    text-align: center;
+}
+
+.social-bloc a {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: block;
     text-decoration: none;
 }
 
