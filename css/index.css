@@ -1,0 +1,38 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+.title-bloc{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;
+    text-align: center;
+}
