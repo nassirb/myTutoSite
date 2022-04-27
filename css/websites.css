@@ -6,6 +6,10 @@ body{
     display: flex;
     cursor: none;
 }
+.content{
+    position: relative;
+    overflow: hidden;
+}
 .content p{
     width: 700px;
     line-height: 26px;
@@ -41,11 +45,3 @@ body{
     width: 20px;
     margin: auto;
 }
-/* .content:hover ~ .cursor {
-    transform: translate(-50%, -50%) scale(1.5);
-    background-color: #c6c6c6;
-    opacity: .5;
-}
-.content:hover ~ .cursor2{
-    opacity: 0;
-} */
