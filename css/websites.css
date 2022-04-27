@@ -4,39 +4,39 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    cursor: pointer;
+    cursor: none;
 }
-
-.cursor{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #c6c6c6;
-    border-radius:50%;
-    left:0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .1s;
-}
-
-.cursor2{
-    position: fixed;
-    width: 8px;
-    height: 8px;
-    background-color: #c6c6c6;
-    border-radius:50%;
-    left: 0;
-    top: 0;
-    pointer-events:none;
-    transform: translate(-50%, -50%);
-    transition: .2s;
-}
-.content{
+.content p{
     width: 700px;
     line-height: 26px;
     font-size: 18px;
     text-align: justify;
+}
+.cursor{
+    position: fixed;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #c6c6c6;
+    border-radius: 20px;
+    left:0;
+    top: 0;
+    transition: .1s;
+}
+.cursor img, .cursor2 img{
+    display: block;
+    width: 20px;
+}
+.cursor2{
+    position: fixed;
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+    background-color: #c6c6c6;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+    transition: .8s;
 }
 .content:hover ~ .cursor {
     transform: translate(-50%, -50%) scale(1.5);
