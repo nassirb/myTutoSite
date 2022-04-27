@@ -32,7 +32,12 @@ body{
     transform: translate(-50%, -50%);
     transition: .2s;
 }
-
+.content{
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
 .content:hover ~ .cursor {
     transform: translate(-50%, -50%) scale(1.5);
     background-color: #c6c6c6;
